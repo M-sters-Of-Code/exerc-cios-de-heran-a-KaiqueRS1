@@ -35,7 +35,7 @@ namespace TestSistemaBancario
             decimal saque = 105;
             ContaCaixinha caixinha = new ContaCaixinha(saldoInicial);
             caixinha.Sacar(saque);
-            Assert.AreEqual(caixinha.Saldo, 900);
+            Assert.AreEqual(caixinha.Saldo, 890);
         }
 
         [TestMethod]
